@@ -1,0 +1,355 @@
+.imgone{
+    position: absolute;
+    height: 50vh;
+    left: 3px;
+    top: -16px;
+}
+
+.one{
+    position: relative;
+    height: 457.67px;
+    width: 1692.9px;
+    margin-top: 100px;
+    margin-left: -10px;
+    background-color: #0e3eca;
+}
+
+.two{
+    position: relative;
+    height: 457.67px;
+}
+
+.pone{
+    position: absolute;
+    top: 80px;
+    left: 525px;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+.ptwo{
+    position: absolute;
+    top: 160px;
+    left: 525px;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+.pthr{
+    position: absolute;
+    left: 370px;
+}
+
+.pfou{
+    position: absolute;
+    left: 460px;
+    top: 40px;
+    font-size: 17px;
+    font-family: "微软雅黑";
+    letter-spacing: 2px;
+}
+
+.pfir{
+    position: absolute;
+    left: 415px;
+    top: 68px;
+    font-size: 17px;
+    font-family: "微软雅黑";
+    letter-spacing: 2px;
+}
+
+.psix{
+    position: absolute;
+    left: 415px;
+    top: 96px;
+    font-size: 17px;
+    font-family: "微软雅黑";
+    letter-spacing: 2px;
+}
+
+.psev{
+    position: absolute;
+    left: 415px;
+    top: 124px;
+    font-size: 17px;
+    font-family: "微软雅黑";
+    letter-spacing: 2px;
+}
+
+.thr{
+    position: relative;
+    margin-top: -200px;
+    width: all;
+    height: 500px;
+    background-color: #f7fbff;
+}
+
+.divone{
+    position: absolute;
+    width: 241px;
+    height: 224px;
+    background-color: #eff5ff;
+    top: 130px;
+    left: 340px;
+}
+
+.imggone{
+    position: absolute;
+    top: 20px;
+    left: 85px;
+}
+
+.divtwo{
+    position: absolute;
+    width: 241px;
+    height: 224px;
+    background-color: #eff5ff;
+    top: 130px;
+    left: 594px;
+}
+
+.imggtwo{
+    position: absolute;
+    top: 20px;
+    left: 85px;
+}
+
+.divthr{
+    position: absolute;
+    width: 241px;
+    height: 224px;
+    background-color: #eff5ff;
+    top: 130px;
+    left: 848px;
+}
+
+.imggthr{
+    position: absolute;
+    top: 20px;
+    left: 85px;
+}
+
+.divfou{
+    position: absolute;
+    width: 241px;
+    height: 224px;
+    background-color: #eff5ff;
+    top: 130px;
+    left: 1100px;
+}
+
+.imggfou{
+    position: absolute;
+    top: 20px;
+    left: 85px;
+}
+
+.imgpone{
+    position: absolute;
+    font-size: 22px;
+    letter-spacing: 1px;
+    top: 100px;
+    left: 76px;
+}
+
+.imgptwo{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    letter-spacing: 1px;
+}
+
+.fou{
+    position: relative;
+    width: all;
+    height: 500px;
+    background-color: white;
+}
+
+.pppone{
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    left: 730px;
+    letter-spacing: 2px;
+}
+
+.ppptwo{
+    position: absolute;
+    top: 160px;
+    left: 340px;
+}
+
+.pppthr{
+    position: absolute;
+    top: 160px;
+    left: 540px;
+}
+
+.pppfou{
+    position: absolute;
+    top: 160px;
+    left: 740px;
+}
+
+.pppfir{
+    position: absolute;
+    top: 160px;
+    left: 940px;
+}
+
+.pppsix{
+    position: absolute;
+    top: 160px;
+    left: 1140px;
+}
+
+.pppsev{
+    position: absolute;
+    top: 260px;
+    left: 340px;
+}
+
+.pppeig{
+    position: absolute;
+    top: 260px;
+    left: 540px;
+}
+
+.pppnin{
+    position: absolute;
+    top: 260px;
+    left: 740px;
+}
+
+.pppten{
+    position: absolute;
+    top: 260px;
+    left: 940px;
+}
+
+.pppele{
+    position: absolute;
+    top: 260px;
+    left: 1140px;
+}
+
+.divbd{
+    position: fixed;
+    width: all;
+    height: 300px;
+    top: 20px;
+    left: 20px;
+    z-index: 10; /* 确保盒子在其他内容之上 */
+}
+
+.bdp{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.bdpp{
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 300px;
+    z-index: 20;
+}
+
+.bdppp{
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 1460px;
+    z-index: 20;
+}
+
+.bdpppp{
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 1550px;
+    z-index: 20;
+}
+
+.app{
+    position: absolute;
+    margin-top: 820px;
+    margin-left: 1600px;
+    z-index: 20;
+}
+
+.fir{
+    position: relative;
+    height: 494px;
+    width: 1692.9px;
+    margin-bottom: -8px;
+    margin-left: -10px;
+    background-color: rgb(31,34,44);
+    color: white;
+}
+
+.onep{
+    position: absolute;
+    font-size: 40px;
+    top: 30px;
+    left: 600px;
+}
+
+.twop{
+    position: absolute;
+    font-size: 40px;
+    top: 140px;
+    left: 600px;
+}
+
+.thrp{
+    position: absolute;
+    font-size: 16px;
+    top: 220px;
+    left: 600px;
+    color: rgba(143,145,150);
+}
+
+.foup{
+    position: absolute;
+    font-size: 16px;
+    top: 260px;
+    left: 600px;
+}
+
+.firp{
+    position: absolute;
+    font-size: 16px;
+    top: 285px;
+    left: 600px;
+}
+
+.sixp{
+    position: absolute;
+    font-size: 16px;
+    top: 310px;
+    left: 600px;
+}
+
+.sevp{
+    position: absolute;
+    font-size: 14px;
+    top: 355px;
+    left: 600px;
+    color: rgba(143,145,150);
+}
+
+.eigp{
+    position: absolute;
+    font-size: 14px;
+    top: 375px;
+    left: 600px;
+    color: rgba(143,145,150);
+}
+
+.pimg{
+    position: absolute;
+    top: 120px;
+    left: 600px;
+}

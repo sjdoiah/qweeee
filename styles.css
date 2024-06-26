@@ -1,0 +1,173 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+.logo a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+   
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+.search input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.user-actions {
+    display: flex;
+}
+
+.user-actions a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+.main-box {
+    padding-top: 6px;
+    width: 1250px;
+    margin: 10px auto;
+    background: #fff;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    color: #f40;
+    text-decoration: none;
+}
+.cd {
+    padding-top: 6px;
+    width: 1200px;
+    margin: 10px auto;
+    background: #fff;
+}
+
+.left {
+    width: 270px;
+    height: 470px;
+    font-size: 14px;
+    float: left;
+    background-color: black;
+}
+
+.left .spfl {
+    font-size: 16px;
+    color: #ff6200;
+    margin-left:50px ;
+    line-height: 50px;
+}
+
+.left ul {
+    padding: 6px 0 3px 18px;
+    list-style: none;
+    font-size: 14px;
+    color: #c6c5c5;
+}
+
+.left ul li {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 18px;
+}
+.zj {
+    width: 920px;
+    float: left;
+    height: 470px;
+}
+
+.zj .gg {
+    width: 100%;
+    height: 470px;
+}
+
+.xgg img {
+    width: 250px;
+}
+ .dgg {
+    width: 1190px;
+    height: 130px;
+    padding-top: 50px;
+   
+}
+.shouji{
+    width: 2000px;
+    height: 600px;
+   margin-top: 50px;
+   padding: 10px;
+}
+.sj img{
+    width: 230px;
+    height: 560px;
+}
+.sjleft{
+    float: left;
+}
+.sjzj{
+    width: 1000px;
+    height: 600px;
+    float: left;
+    padding-left: 10px;
+}
+.sjzj img{
+    width: 210px;
+    height: 210px;
+   float: left;  
+}
+#da:hover{
+    transition: all 1s ;
+    transform: scale(1.05);
+    box-shadow:3px 1px 10px #515151;
+
+}
+.sjdiv{
+    float: left;
+    border: #585858 solid 1px;
+   margin-left: 20px;
+   text-align: center;
+}
+.sjdivx{
+    float: left;
+    border: #585858 solid 1px;
+   margin-left: 20px;
+   margin-top: 20px;
+   text-align: center;
+}
+.sjdiv d{
+    color: #ff6200;
+    
+}
+.dgg1 {
+    width: 1190px;
+    height: 130px;
+    
+   
+}
+
+

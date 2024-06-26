@@ -1,0 +1,107 @@
+.father{
+    width: all;
+    height: 300px;
+    padding: 10px;
+    background: linear-gradient(to right, #fff, rgb(225, 244, 244) );
+    position: relative;
+}
+
+.child1{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.child2{
+    font-weight: bold;
+    position: absolute;
+    left: 35px;
+    top: 28px;
+}
+
+a{
+    color: #666;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.child3{
+    position:absolute;
+    right: 200px;
+    top: 28px;
+}
+
+.child3::after{
+    content: '';
+    width: 1px;
+    height: 50%; /* 设置高度为容器高度的50% */
+    background-color: #666; /* 设置背景颜色为灰色 */
+    position: absolute;
+    left: 60px;
+    top: 40%; /* 从容器顶部的50%开始 */
+}
+
+select{
+    border: none;
+    color: #666;
+}
+
+.child4{
+    position:absolute;
+    background: transparent;
+    right:85px;
+    top: 32px;
+}
+
+.child4::after{
+    content: '';
+    width: 1px;
+    height: 50%; /* 设置高度为容器高度的50% */
+    background-color: #666; /* 设置背景颜色为灰色 */
+    position: absolute;
+    left: 60px;
+    top: 40%; /* 从容器顶部的50%开始 */
+}
+
+.child5{
+    position:absolute;
+    right: 250px;
+    top: 250px;
+}
+
+.child6{
+    position:absolute;
+    font-size: 45px;
+    left: 360px;
+    top: 320px;
+}
+
+.child7{
+    position:absolute;
+    left: 350px;
+    top: 430px;
+}
+
+.child8{
+    position:absolute;
+    left: 350px;
+    top: 490px;
+}
+
+body{
+    background: linear-gradient(to right, #fff, rgb(225, 244, 244) );
+}
+
+.child9{
+    position:absolute;
+    left: 28%;
+    top: 840px;
+}
+
+.img1{
+    border-radius: 10px;
+    width:256px;
+    height:51px;
+}

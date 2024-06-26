@@ -1,0 +1,159 @@
+/* 重置默认的样式 */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+ 
+/* 设置基本字体样式与颜色 */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+ 
+/* 移除列表的默认样式 */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+/* 设置链接样式 */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
+ 
+/* 移除输入框的默认样式 */
+input, textarea {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+ 
+/* 设置按钮样式 */
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+ 
+/* 移除图片的边框 */
+img {
+    border: none;
+}
+ 
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ .footer{
+    width: 100%;
+ }
+.wrap{
+    width: 1226px;
+    margin: 0 auto;
+}
+.service{
+width: 100%;
+height: 25px;
+line-height:25% ;
+padding: 27px 0;
+border-bottom: 1px solid #e0e0e0;
+}
+.service li{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    border-left:1px solid #b0b0b0 ;
+}
+.service li span{
+    color: #616161;
+}
+.service li:last-child{
+    border-right: 0;
+}
+.footer-link{
+width:100% ;
+padding:27px 0;
+}
+.link{
+float: left;
+width:160px;
+text-align: left;
+color: #424242;
+font-size: 14px;
+line-height: 1.25; 
+}
+.link a{
+    font-size: 12px;
+    color: #757575;
+}
+.link li{
+    margin-top: 10px;
+
+}
+.footer-aside{
+    width: 250px;
+    height: 111px;
+    float: right;
+    color: #616161;
+border-left: 1px solid #e0e0e0;
+text-align: center;
+}
+.footer-aside .tell{
+    font-size: 22px;
+    line-height: 22px;
+    color: #ff6700;
+    margin-bottom: 5px;
+}
+.footer-aside .time{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.k{
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ff6700;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #ff6700;
+    transition: all 0.4s;
+    font-size: 12px;
+}
+.k:hover{
+    background: #f25807;
+    border-color: #ff6700;
+    color: #fff;
+
+}
+.follow{
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+.follow img{
+    width: 24px;
+    margin-left: 6px;
+    position: relative;
+    top: 7px;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
